@@ -1,0 +1,26 @@
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+Subject: 
+ =?utf-8?q?Restablecimiento_de_la_contrase=C3=B1a_en_localhost=3A8000_?=
+From: webmaster@localhost
+To: ivekdelfin@gmail.com
+Date: Sun, 05 Apr 2020 03:29:48 -0000
+Message-ID: <158605738858.22443.8674571418850271903@ghost-PC>
+
+
+Usted está recibiendo este correo electrónico porque ha solicitado un restablecimiento de contraseña para la cuenta de usuario en localhost:8000.
+
+Por favor visite la página que se muestra a continuación y elija una nueva contraseña:
+
+http://localhost:8000/accounts/reset/MQ/5fe-2d2e1ec4f3557e0b36a9/
+
+Your username, in case you’ve forgotten: ivek
+
+¡Gracias por usar nuestro sitio!
+
+El equipo de localhost:8000
+
+
+
+-------------------------------------------------------------------------------
