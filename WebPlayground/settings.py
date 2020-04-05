@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'registration',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -40,6 +41,7 @@ INSTALLED_APPS = [
     'pages.apps.PagesConfig',
     'ckeditor',
     'core',
+    
    
 ]
 
@@ -122,3 +124,17 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+LOGIN_REDIRECT_URL= 'pages:pages'
+LOGOUT_REDIRECT_URL ='home'
+
+
+#email sección
+
+if DEBUG:
+    EMAIL_BACKEND= "django.core.mail.backends.filebased.EmailBackend"
+    EMAIL_FILE_PATH = os.path.join(BASE_DIR, 'sent_emails')
+else
+#configurar email real para producción
+
+
