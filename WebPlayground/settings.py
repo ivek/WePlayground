@@ -41,7 +41,7 @@ INSTALLED_APPS = [
     'pages.apps.PagesConfig',
     'ckeditor',
     'core',
-    
+    'Profiles',
    
 ]
 
